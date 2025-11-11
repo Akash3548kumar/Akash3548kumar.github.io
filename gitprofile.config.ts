@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['Akash3548kumar/gitprofile', 'Akash3548kumar/pandora'], // List of repository names to display. example: ['Akash3548kumar/my-project1', 'Akash3548kumar/my-project2']
+        projects: ['Akash3548kumar/Akash3548kumar.github.io', 'Akash3548kumar/Weather-Forecasting-App '], // List of repository names to display. example: ['Akash3548kumar/my-project1', 'Akash3548kumar/my-project2']
       },
     },
     external: {
@@ -155,7 +155,7 @@ const CONFIG = {
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'Akash3548kumar', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
