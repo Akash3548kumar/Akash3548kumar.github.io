@@ -15,7 +15,7 @@ const CONFIG = {
         limit: 10,
         exclude: {
           forks: true,
-          projects: ["Akash3548kumar/Akash3548kumar.github.io","Akash3548kumar/Akash3548kumar"],
+          projects: ["Akash3548kumar/Akash3548kumar.github.io","Akash3548kumar/Akash3548kumar","Akash3548kumar/My-Portfolio","Akash3548kumar/Portfolio"],
         },
       },
       manual: {
