@@ -29,16 +29,22 @@ const CONFIG = {
       header: 'My Projects',
       projects: [
         {
-          title: 'Weather Forecasting App',
-          description: 'A React.js and Node.js web application for real-time weather forecasting using REST APIs and modern JavaScript. Built with a mobile-first responsive UI and clean backend integration. Keywords: web development, full-stack, JavaScript, backend, frontend, APIs.',
-          imageUrl: 'https://img.freepik.com/free-vector/forecast-concept-illustration_114360-1236.jpg',
-          link: 'https://github.com/Akash3548kumar/Weather-Forecasting-App',
+          title: 'VaidClone – E-commerce Store Clone',
+          description: 'Developed a fully responsive e-commerce web application replicating an Ayurvedic product store using Next.js, TypeScript and Tailwind CSS. Implemented routing, SEO-optimised rendering, type-safe architecture and mobile/desktop responsive UI. Deployed the project to a production environment with automated build and deployment workflows.',
+          imageUrl: 'https://unblast.com/wp-content/uploads/2021/07/E-commerce-Vector-Illustration.jpg',
+          link: 'https://github.com/Akash3548kumar/vaidclone',
         },
         {
           title: 'Image Search Engine',
           description: 'A powerful and fast image search engine that allows users to search for images using keywords. Built using advanced JavaScript and asynchronous API handling for rapid retrieval and display. Keywords: JavaScript, web development, image search, REST APIs, frontend, UX.',
           imageUrl: 'https://img.freepik.com/free-vector/image-search-concept-illustration_114360-5296.jpg',
           link: 'https://github.com/Akash3548kumar/Image-Search',
+        },
+        {
+          title: 'Weather Forecasting App',
+          description: 'A React.js and Node.js web application for real-time weather forecasting using REST APIs and modern JavaScript. Built with a mobile-first responsive UI and clean backend integration. Keywords: web development, full-stack, JavaScript, backend, frontend, APIs.',
+          imageUrl: 'https://img.freepik.com/free-vector/forecast-concept-illustration_114360-1236.jpg',
+          link: 'https://github.com/Akash3548kumar/Weather-Forecasting-App',
         }
         // Add new projects or open source contributions here if needed
       ],
