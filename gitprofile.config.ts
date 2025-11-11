@@ -12,22 +12,36 @@ const CONFIG = {
       mode: 'automatic',
       automatic: {
         sortBy: 'stars',
-        limit: 8,
+        limit: 10,
         exclude: {
-          forks: false,
-          projects: [],
+          forks: true,
+          projects: ["Akash3548kumar/Akash3548kumar.github.io","Akash3548kumar/Akash3548kumar"],
         },
       },
       manual: {
         projects: [
-          'Akash3548kumar/Akash3548kumar.github.io',
+          'Akash3548kumar/Image-Search',
           'Akash3548kumar/Weather-Forecasting-App'
         ],
       },
     },
     external: {
       header: 'My Projects',
-      projects: [],
+      projects: [
+        {
+          title: 'Weather Forecasting App',
+          description: 'A React.js and Node.js web application for real-time weather forecasting using REST APIs and modern JavaScript. Built with a mobile-first responsive UI and clean backend integration. Keywords: web development, full-stack, JavaScript, backend, frontend, APIs.',
+          imageUrl: 'https://img.freepik.com/free-vector/forecast-concept-illustration_114360-1236.jpg',
+          link: 'https://github.com/Akash3548kumar/Weather-Forecasting-App',
+        },
+        {
+          title: 'Image Search Engine',
+          description: 'A powerful and fast image search engine that allows users to search for images using keywords. Built using advanced JavaScript and asynchronous API handling for rapid retrieval and display. Keywords: JavaScript, web development, image search, REST APIs, frontend, UX.',
+          imageUrl: 'https://img.freepik.com/free-vector/image-search-concept-illustration_114360-5296.jpg',
+          link: 'https://github.com/Akash3548kumar/Image-Search',
+        }
+        // Add new projects or open source contributions here if needed
+      ],
     },
   },
   seo: {
@@ -84,8 +98,8 @@ const CONFIG = {
     {
       company: 'IdentityPro Pvt. Ltd.',
       position: 'Web Developer Intern',
-      from: '', // Add date if available
-      to: '',   // Add date if available
+      from: 'April 2024', // Add date if available
+      to: 'Nov 2024',   // Add date if available
       companyLink: '', // Add company URL if available
       description:
         'Contributed to developing a Loan Management System, optimizing backend processes, and integrating APIs to improve workflow efficiency.'
@@ -121,8 +135,8 @@ const CONFIG = {
     {
       institution: 'Your University/Institute Name',
       degree: 'B.Tech CSE (AI)',
-      from: '', // Add your start year
-      to: '',   // Add your end year (or 'Present')
+      from: 'Nov 2021', // Add your start year
+      to: 'May 2025',   // Add your end year (or 'Present')
     },
     // Add more educations if desired
   ],
